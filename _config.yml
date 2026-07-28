@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shihangyin (Frank) Zhang"
+title                    : "Frank's Homepage"
 title_separator          : "-"
-name                     : &name "Shihangyin (Frank) Zhang"
+name                     : &name "Shihangyin Zhang"
 description              : &description "Economist working on international trade, global supply chains, and macro-finance"
 url                      : https://frankzshy.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -79,7 +79,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shihangyin (Frank) Zhang"
+  name             : "Shihangyin Zhang"
   avatar           : "profile.png"
   bio              : "Economist, IMF Research Department. Ph.D. in Economics, University of Maryland."
   location         : "Washington, DC"
@@ -231,7 +231,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
