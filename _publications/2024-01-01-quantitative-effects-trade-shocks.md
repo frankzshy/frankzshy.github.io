@@ -5,6 +5,7 @@ permalink: /publication/2024-01-01-quantitative-effects-trade-shocks
 excerpt: 'Quantifies how trade shocks propagate through global supply chains, using a model with endogenous global sourcing to study the US-China tariff escalation.'
 date: 2024-01-01
 venue: 'Working paper'
+in_progress: true
 paperurl: 'https://www.freit.org/EIIT/2021/selected/zhang.pdf'
 citation: 'Zhang, Shihangyin. &quot;Quantitative Effects of Trade Shocks Under Global Supply Chains.&quot; Working paper.'
 ---
