@@ -26,9 +26,19 @@
       </div>
     {% endif %}
 
+    {% assign title_link = post.link | default: post.paperurl %}
+    {% assign no_single_page = false %}
+    {% if post.collection == 'publications' %}
+      {% assign no_single_page = true %}
+    {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% if title_link %}
+        <a href="{{ title_link }}">{{ title }}</a>
+        {% unless no_single_page %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% endunless %}
+      {% elsif no_single_page %}
+        {{ title }}
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}

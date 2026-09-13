@@ -5,6 +5,7 @@ permalink: /publication/2026-08-01-ai-fragmenting-world
 excerpt: 'Examines how geoeconomic fragmentation shapes the global diffusion of artificial intelligence and the distribution of its gains, with a focus on the MENAP (Middle East, North Africa, Afghanistan, and Pakistan) economies.'
 date: 2026-08-01
 venue: 'NBER Working Paper No. 35597'
+in_progress: true
 paperurl: 'https://www.nber.org/papers/w35597'
 citation: 'Eichengreen, Barry, George Cui, Asmaa A. El-Ganainy, Yevgeniya Koriyenko, Elyad Shojaei, Li Zeng, and Shihangyin Zhang. (2026). &quot;AI in a Fragmenting World.&quot; <i>NBER Working Paper</i>, No. 35597.'
 ---

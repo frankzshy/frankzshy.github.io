@@ -6,6 +6,7 @@ excerpt: 'Quantifies how trade shocks propagate through global supply chains, us
 date: 2024-01-01
 venue: 'Working paper'
 in_progress: true
+hide_link: true
 paperurl: 'https://www.freit.org/EIIT/2021/selected/zhang.pdf'
 citation: 'Zhang, Shihangyin. &quot;Quantitative Effects of Trade Shocks Under Global Supply Chains.&quot; Working paper.'
 ---

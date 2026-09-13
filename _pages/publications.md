@@ -23,11 +23,15 @@ author_profile: true
 <h2 id="working-papers">Working Papers</h2>
 
 {% for post in in_progress_papers reversed %}
-  {% assign title = post.title %}
-  <div class="list__item">
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      <h2 class="archive__item-title" itemprop="headline">{{ title }}</h2>
-      <p>Draft available upon request.</p>
-    </article>
-  </div>
+  {% if post.hide_link != true and post.paperurl or post.link %}
+    {% include archive-single.html %}
+  {% else %}
+    {% assign title = post.title %}
+    <div class="list__item">
+      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        <h2 class="archive__item-title" itemprop="headline">{{ title }}</h2>
+        <p>Draft available upon request.</p>
+      </article>
+    </div>
+  {% endif %}
 {% endfor %}
