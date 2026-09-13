@@ -59,18 +59,6 @@ Work experience
   * Developed robust economic and statistical models to support policy decisions
   * Performed statistical analysis such as GMM, bootstrapping, and VAR/SVAR
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
 Grants and awards
 ======
 * Best Paper Prize, 20th Annual GEP/CEPR Postgraduate Conference, 2022
@@ -84,4 +72,4 @@ Skills
 
 Languages
 ======
-* Mandarin Chinese (native), English (fluent)
+* Mandarin Chinese (native), English (fluent), French (beginner)
